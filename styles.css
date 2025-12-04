@@ -205,7 +205,7 @@ img {
   );
 }
 
-/* HOME SECTION */
+/* HOME SECTION - Warm brown/orange tones */
 .section-home {
   background-image: 
     /* Aged paper texture - fine lines */
@@ -213,39 +213,39 @@ img {
       0deg,
       transparent,
       transparent 1px,
-      rgba(0, 0, 0, 0.02) 1px,
-      rgba(0, 0, 0, 0.02) 2px
+      rgba(0, 0, 0, 0.05) 1px,
+      rgba(0, 0, 0, 0.05) 2px
     ),
     /* Parchment fibers */
     repeating-linear-gradient(
       90deg,
       transparent,
       transparent 3px,
-      rgba(139, 90, 43, 0.03) 3px,
-      rgba(139, 90, 43, 0.03) 4px
+      rgba(139, 90, 43, 0.08) 3px,
+      rgba(139, 90, 43, 0.08) 4px
     ),
     /* Scroll edge shadows */
     linear-gradient(
       to right,
-      rgba(0, 0, 0, 0.08) 0%,
+      rgba(0, 0, 0, 0.15) 0%,
       transparent 3%,
       transparent 97%,
-      rgba(0, 0, 0, 0.08) 100%
+      rgba(0, 0, 0, 0.15) 100%
     ),
     /* Aged spots and stains */
     radial-gradient(
       ellipse 800px 400px at 15% 25%,
-      rgba(60, 30, 10, 0.12) 0%,
+      rgba(60, 30, 10, 0.2) 0%,
       transparent 40%
     ),
     radial-gradient(
       ellipse 600px 300px at 85% 75%,
-      rgba(50, 25, 8, 0.1) 0%,
+      rgba(50, 25, 8, 0.18) 0%,
       transparent 35%
     ),
     radial-gradient(
       circle 200px at 50% 50%,
-      rgba(40, 20, 5, 0.08) 0%,
+      rgba(40, 20, 5, 0.15) 0%,
       transparent 30%
     ),
     /* Cracks and weathering */
@@ -253,35 +253,35 @@ img {
       45deg,
       transparent,
       transparent 50px,
-      rgba(0, 0, 0, 0.01) 50px,
-      rgba(0, 0, 0, 0.01) 51px
+      rgba(0, 0, 0, 0.03) 50px,
+      rgba(0, 0, 0, 0.03) 51px
     ),
-    /* Main ancient gradient */
+    /* Main ancient gradient - warm brown/orange */
     linear-gradient(
       135deg,
       #010000 0%,
       #010000 7%,
-      #050201 7%,
-      #050201 15%,
+      #0a0402 7%,
       #0a0402 15%,
-      #0a0402 23%,
-      #150805 23%,
-      #150805 33%,
-      #24120a 33%,
-      #24120a 44%,
-      #352018 44%,
-      #352018 53%,
-      #4a2d20 53%,
-      #4a2d20 61%,
-      #352018 61%,
-      #352018 71%,
-      #24120a 71%,
-      #24120a 81%,
-      #150805 81%,
-      #150805 90%,
-      #0a0402 90%,
-      #0a0402 100%,
-      #050201 100%
+      #1a0a05 15%,
+      #1a0a05 23%,
+      #2d150a 23%,
+      #2d150a 33%,
+      #4a2515 33%,
+      #4a2515 44%,
+      #6b3d25 44%,
+      #6b3d25 53%,
+      #8a5235 53%,
+      #8a5235 61%,
+      #6b3d25 61%,
+      #6b3d25 71%,
+      #4a2515 71%,
+      #4a2515 81%,
+      #2d150a 81%,
+      #2d150a 90%,
+      #1a0a05 90%,
+      #1a0a05 100%,
+      #0a0402 100%
     );
   color: #200f05;
   position: relative;
@@ -547,20 +547,20 @@ img {
       90deg,
       transparent,
       transparent 1px,
-      rgba(0, 0, 0, 0.015) 1px,
-      rgba(0, 0, 0, 0.015) 2px
+      rgba(0, 0, 0, 0.04) 1px,
+      rgba(0, 0, 0, 0.04) 2px
     ),
     repeating-linear-gradient(
       0deg,
       transparent,
       transparent 4px,
-      rgba(101, 67, 33, 0.025) 4px,
-      rgba(101, 67, 33, 0.025) 5px
+      rgba(101, 67, 33, 0.06) 4px,
+      rgba(101, 67, 33, 0.06) 5px
     ),
     /* Scroll vertical edges */
     linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.06) 0%,
+      rgba(0, 0, 0, 0.12) 0%,
       transparent 2%,
       transparent 98%,
       rgba(0, 0, 0, 0.06) 100%
@@ -568,17 +568,17 @@ img {
     /* Ancient ink stains */
     radial-gradient(
       ellipse 600px 500px at 25% 30%,
-      rgba(45, 25, 8, 0.15) 0%,
+      rgba(60, 20, 10, 0.22) 0%,
       transparent 45%
     ),
     radial-gradient(
       ellipse 500px 400px at 75% 70%,
-      rgba(35, 18, 6, 0.12) 0%,
+      rgba(50, 15, 8, 0.18) 0%,
       transparent 40%
     ),
     radial-gradient(
       circle 150px at 60% 40%,
-      rgba(30, 15, 5, 0.1) 0%,
+      rgba(40, 12, 6, 0.15) 0%,
       transparent 25%
     ),
     /* Weathering lines */
@@ -586,43 +586,43 @@ img {
       135deg,
       transparent,
       transparent 60px,
-      rgba(0, 0, 0, 0.015) 60px,
-      rgba(0, 0, 0, 0.015) 61px
+      rgba(0, 0, 0, 0.03) 60px,
+      rgba(0, 0, 0, 0.03) 61px
     ),
     /* Faded scroll edges */
     linear-gradient(
       to right,
-      rgba(80, 50, 25, 0.05) 0%,
+      rgba(100, 30, 20, 0.08) 0%,
       transparent 5%,
       transparent 95%,
       rgba(80, 50, 25, 0.05) 100%
     ),
-    /* Main ancient gradient */
+    /* Main ancient gradient - red/burgundy */
     linear-gradient(
       135deg,
-      #010000 0%,
-      #010000 8%,
-      #050201 8%,
-      #050201 17%,
-      #0a0402 17%,
-      #0a0402 26%,
-      #150805 26%,
-      #150805 35%,
-      #24120a 35%,
-      #24120a 44%,
-      #352018 44%,
-      #352018 53%,
-      #4a2d20 53%,
-      #4a2d20 62%,
-      #352018 62%,
-      #352018 71%,
-      #24120a 71%,
-      #24120a 80%,
-      #150805 80%,
-      #150805 89%,
-      #0a0402 89%,
-      #0a0402 100%,
-      #050201 100%
+      #0a0100 0%,
+      #0a0100 8%,
+      #150302 8%,
+      #150302 17%,
+      #1f0503 17%,
+      #1f0503 26%,
+      #2d0a05 26%,
+      #2d0a05 35%,
+      #4a150a 35%,
+      #4a150a 44%,
+      #6b2012 44%,
+      #6b2012 53%,
+      #8a2d18 53%,
+      #8a2d18 62%,
+      #6b2012 62%,
+      #6b2012 71%,
+      #4a150a 71%,
+      #4a150a 80%,
+      #2d0a05 80%,
+      #2d0a05 89%,
+      #1f0503 89%,
+      #1f0503 100%,
+      #150302 100%
     );
 }
 
@@ -769,7 +769,7 @@ img {
   opacity: 0.8;
 }
 
-/* CONTACT SECTION */
+/* CONTACT SECTION - Purple/brown tones */
 .section-contact {
   background-image: 
     /* Aged manuscript texture */
@@ -777,50 +777,50 @@ img {
       45deg,
       transparent,
       transparent 2px,
-      rgba(0, 0, 0, 0.02) 2px,
-      rgba(0, 0, 0, 0.02) 3px
+      rgba(0, 0, 0, 0.04) 2px,
+      rgba(0, 0, 0, 0.04) 3px
     ),
     repeating-linear-gradient(
       -45deg,
       transparent,
       transparent 3px,
-      rgba(120, 80, 40, 0.02) 3px,
-      rgba(120, 80, 40, 0.02) 4px
+      rgba(80, 60, 50, 0.05) 3px,
+      rgba(80, 60, 50, 0.05) 4px
     ),
     /* Scroll roll edges */
     linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.05) 0%,
+      rgba(0, 0, 0, 0.1) 0%,
       transparent 3%,
       transparent 97%,
-      rgba(0, 0, 0, 0.05) 100%
+      rgba(0, 0, 0, 0.1) 100%
     ),
     linear-gradient(
       to right,
-      rgba(60, 40, 20, 0.04) 0%,
+      rgba(50, 30, 30, 0.08) 0%,
       transparent 4%,
       transparent 96%,
-      rgba(60, 40, 20, 0.04) 100%
+      rgba(50, 30, 30, 0.08) 100%
     ),
     /* Ancient document stains */
     radial-gradient(
       ellipse 700px 600px at 20% 20%,
-      rgba(50, 30, 12, 0.14) 0%,
+      rgba(40, 25, 20, 0.2) 0%,
       transparent 50%
     ),
     radial-gradient(
       ellipse 600px 500px at 80% 80%,
-      rgba(40, 22, 10, 0.12) 0%,
+      rgba(35, 20, 18, 0.18) 0%,
       transparent 45%
     ),
     radial-gradient(
       circle 180px at 50% 60%,
-      rgba(35, 18, 8, 0.09) 0%,
+      rgba(30, 18, 15, 0.15) 0%,
       transparent 30%
     ),
     radial-gradient(
       circle 120px at 30% 70%,
-      rgba(30, 15, 6, 0.08) 0%,
+      rgba(25, 15, 12, 0.12) 0%,
       transparent 25%
     ),
     /* Cracks and wear patterns */
@@ -828,43 +828,43 @@ img {
       30deg,
       transparent,
       transparent 80px,
-      rgba(0, 0, 0, 0.01) 80px,
-      rgba(0, 0, 0, 0.01) 81px
+      rgba(0, 0, 0, 0.02) 80px,
+      rgba(0, 0, 0, 0.02) 81px
     ),
     /* Faded ink marks */
     linear-gradient(
       120deg,
-      rgba(70, 45, 20, 0.03) 0%,
+      rgba(60, 40, 35, 0.06) 0%,
       transparent 20%,
       transparent 80%,
-      rgba(70, 45, 20, 0.03) 100%
+      rgba(60, 40, 35, 0.06) 100%
     ),
-    /* Main ancient gradient */
+    /* Main ancient gradient - purple/brown */
     linear-gradient(
       135deg,
-      #010000 0%,
-      #010000 9%,
+      #050201 0%,
       #050201 9%,
-      #050201 19%,
-      #0a0402 19%,
-      #0a0402 29%,
+      #0a0302 9%,
+      #0a0302 19%,
+      #150805 19%,
       #150805 29%,
-      #150805 39%,
-      #24120a 39%,
-      #24120a 49%,
-      #352018 49%,
-      #352018 59%,
-      #4a2d20 59%,
-      #4a2d20 69%,
-      #352018 69%,
-      #352018 79%,
-      #24120a 79%,
-      #24120a 87%,
-      #150805 87%,
+      #1f0f0a 29%,
+      #1f0f0a 39%,
+      #2d1815 39%,
+      #2d1815 49%,
+      #3d2520 49%,
+      #3d2520 59%,
+      #4a2d28 59%,
+      #4a2d28 69%,
+      #3d2520 69%,
+      #3d2520 79%,
+      #2d1815 79%,
+      #2d1815 87%,
+      #1f0f0a 87%,
+      #1f0f0a 93%,
       #150805 93%,
-      #0a0402 93%,
-      #0a0402 100%,
-      #050201 100%
+      #150805 100%,
+      #0a0302 100%
     );
 }
 
