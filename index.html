@@ -1,2 +1,218 @@
-Lost Scrolls Studio. 
-The site is under work.
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Lost Scrolls &mdash; Game Studio</title>
+    <meta
+      name="description"
+      content="Lost Scrolls is a warm, ancient-inspired game studio crafting online worlds for web and mobile."
+    />
+
+    <!-- Favicon from project logo -->
+    <link rel="icon" type="image/jpeg" href="lost-scrolls-logo.jpg" />
+
+    <!-- Google Fonts for ancient-styled title -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Main styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <!-- Top navigation -->
+      <header class="nav">
+        <div class="nav-inner">
+          <div class="nav-left">
+            <div class="nav-logo">
+              <img src="lost-scrolls-logo.jpg" alt="Lost Scrolls logo" />
+            </div>
+            <div class="nav-title-block">
+              <div class="nav-title">Lost Scrolls</div>
+              <div class="nav-subtitle">Game Studio</div>
+            </div>
+          </div>
+          <nav aria-label="Main">
+            <button
+              class="nav-toggle"
+              type="button"
+              aria-label="Toggle navigation"
+              aria-expanded="false"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-links" id="nav-links">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#games">Games</a>
+              <a class="nav-link" href="#contact">Contact</a>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <!-- HOME -->
+      <section id="home" class="section section-home" aria-labelledby="home-title">
+        <div class="section-inner">
+          <div class="hero-grid">
+            <div style="max-width: 800px; margin: 0 auto; text-align: left;">
+              <div class="hero-kicker">
+                <i class="fas fa-scroll"></i>
+                <span>game studio</span>
+              </div>
+              <h1 class="hero-title" id="home-title">
+                <span class="hero-title-main">Lost Scrolls</span>
+              </h1>
+              <p class="hero-body">
+                A mobile game development studio targeting the casual audience. We develop games that are intuitively understandable for everyone, yet require dedication and practice to master
+              </p>
+              <div class="hero-meta">
+                <div class="hero-meta-item">
+                  <i class="fas fa-globe"></i>
+                  <span>Web &amp; Mobile</span>
+                </div>
+                <div class="hero-meta-item">
+                  <i class="fas fa-people-group"></i>
+                  <span>Online games</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GAMES -->
+      <section
+        id="games"
+        class="section section-games"
+        aria-labelledby="games-title"
+      >
+        <div class="section-inner">
+          <div style="text-align: center; margin-bottom: 3rem;">
+            <div class="hero-kicker">
+              <i class="fas fa-dice-d20"></i>
+              <span>Our games</span>
+            </div>
+            <h2 class="hero-title" id="games-title" style="margin-top: 0;">
+              <span class="hero-title-main">Games</span>
+            </h2>
+          </div>
+
+          <div class="games-grid">
+            <div class="games-list" aria-label="Game lineup">
+              <!-- Relic Hunt card -->
+              <article class="game-card">
+                <div class="game-card-icon-wrapper">
+                  <div class="game-card-icon">
+                    <img src="relic hunt-icon.jpg" alt="Relic Hunt icon" />
+                  </div>
+                </div>
+                <div class="game-card-content">
+                  <h3 class="game-card-title">Relic Hunt</h3>
+                  <p class="game-card-subtitle">Unannounced online RPG</p>
+                  <div class="game-card-tags">
+                    <span class="game-card-tag">
+                      <i class="fas fa-cloud"></i>
+                      Online RPG
+                    </span>
+                    <span class="game-card-tag">
+                      <i class="fas fa-mobile-screen-button"></i>
+                      Web &amp; Mobile
+                    </span>
+                    <span class="game-card-tag">
+                      <i class="fas fa-wand-magic-sparkles"></i>
+                      In development
+                    </span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section
+        id="contact"
+        class="section section-contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="section-inner">
+          <div style="text-align: center; margin-bottom: 3rem;">
+            <div class="hero-kicker">
+              <i class="fas fa-feather"></i>
+              <span>Get in touch</span>
+            </div>
+            <h2 class="hero-title" id="contact-title" style="margin-top: 0;">
+              <span class="hero-title-main">Contact</span>
+            </h2>
+          </div>
+
+          <div class="contact-card">
+            <p class="contact-description">
+              For partnerships, collaborations, or media inquiries, send a
+              message to the address below. We read every scroll.
+            </p>
+            <div class="contact-row">
+              <div class="contact-label">Email</div>
+              <div class="contact-email">
+                <a href="mailto:contact@lostscrolls.studio">
+                  <i class="fas fa-envelope-open-text"></i>
+                  <span>contact@lostscrolls.studio</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <span>&copy; <span id="year"></span> Lost Scrolls Game Studio</span>
+      </footer>
+    </div>
+
+    <script>
+      // Mobile nav toggle
+      const navToggle = document.querySelector(".nav-toggle");
+      const navLinks = document.getElementById("nav-links");
+
+      if (navToggle && navLinks) {
+        navToggle.addEventListener("click", () => {
+          const isOpen = navLinks.classList.toggle("is-open");
+          navToggle.setAttribute("aria-expanded", String(isOpen));
+        });
+
+        navLinks.addEventListener("click", (event) => {
+          const target = event.target;
+          if (
+            target instanceof HTMLAnchorElement &&
+            navLinks.classList.contains("is-open")
+          ) {
+            navLinks.classList.remove("is-open");
+            navToggle.setAttribute("aria-expanded", "false");
+          }
+        });
+      }
+
+      // Footer year
+      const yearEl = document.getElementById("year");
+      if (yearEl) {
+        yearEl.textContent = new Date().getFullYear().toString();
+      }
+    </script>
+  </body>
+</html>
