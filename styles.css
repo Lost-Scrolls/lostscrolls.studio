@@ -769,6 +769,37 @@ img {
   opacity: 0.8;
 }
 
+.game-card-play-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-top: 1.25rem;
+  align-self: center;
+  padding: 0.75rem 1.6rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  background: linear-gradient(135deg, #2aabee, #229ed9);
+  border-radius: 28px;
+  box-shadow: 0 6px 18px rgba(34, 158, 217, 0.4),
+    0 2px 6px rgba(18, 7, 2, 0.2);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.game-card-play-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(34, 158, 217, 0.5),
+    0 4px 10px rgba(18, 7, 2, 0.25);
+}
+
+.game-card-play-btn i {
+  font-size: 1.2rem;
+}
+
 /* CONTACT SECTION - Purple/brown tones */
 .section-contact {
   background-image: 
