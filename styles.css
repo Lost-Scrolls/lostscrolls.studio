@@ -800,6 +800,30 @@ img {
   font-size: 1.2rem;
 }
 
+.game-card-play-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+  align-self: center;
+}
+
+.game-card-play-buttons .game-card-play-btn {
+  margin-top: 0;
+}
+
+.game-card-play-btn--web {
+  background: linear-gradient(135deg, #34c759, #1f9e4b);
+  box-shadow: 0 6px 18px rgba(31, 158, 75, 0.4),
+    0 2px 6px rgba(18, 7, 2, 0.2);
+}
+
+.game-card-play-btn--web:hover {
+  box-shadow: 0 10px 24px rgba(31, 158, 75, 0.5),
+    0 4px 10px rgba(18, 7, 2, 0.25);
+}
+
 /* CONTACT SECTION - Purple/brown tones */
 .section-contact {
   background-image: 
